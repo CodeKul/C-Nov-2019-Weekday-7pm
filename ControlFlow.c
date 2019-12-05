@@ -63,5 +63,37 @@ int main() {
         ++i;
     }
 
+    /*
+        initialisation
+        do {
+            statements;
+            incr/decr
+        }while(condition);
+    */
+
+    i = 0;
+    do {
+        printf("Codekul123\n");
+        if (i == 3){
+            // continue;
+        }
+        i++;
+    }while(i < 10);
+
+    /*
+        for(initialisation; condition; incr/decr) {
+            statements;
+        }
+    */
+
+    for (i = 0; i < 10; i++);
+    printf("i: %d\n", i);
+    {
+        printf("Codekul\n");
+        if (i == 3){
+            // break;
+        }
+    }
+
     return 0;
 }
